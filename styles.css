@@ -97,7 +97,6 @@ nav ul {
 /* Hero Section */
 
 .hero-section {
-  background: url("/imgs/header-bg.jpg") no-repeat center center/cover;
   position: relative;
 
   .container {
