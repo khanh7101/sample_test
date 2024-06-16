@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="./imgs/logo.png" alt="Logo" width="80px" height="28px">
+            <nav>
+                <div class="hamburger" id="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <ul id="nav-links">
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <div class="content">
+                    <img src="./imgs/logo.png" alt="Logo" width="175px" height="60px">
+                    <h2>MODERN AXURE TEMPLATE <br> FOR BEAUTIFUL PROTOTYPES</h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin
+                        gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+                    <button class="btn_down">Download</button>
+                </div>
+                <div class="trial-form">
+
+                    <form>
+                        <div class="trial-header">
+                            <h3>Try Your <span class="highlight">FREE</span> Trial Today</h3>
+                        </div>
+                        <div class="trial-content">
+                            <input type="text" name="name" placeholder="Name">
+                            <input type="email" name="email" placeholder="Email">
+                            <input type="password" name="password" placeholder="Password">
+                        </div>
+                        <button type="submit" class="trial-submit">Get Started</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="tabs-section">
+            <div class="container">
+                <div class="tabs">
+                    <button class="tab-link tab1 active" onclick="openTab(event, 'tab1')">TAB
+                        1</button>
+                    <button class="tab-link tab2" onclick="openTab(event, 'tab2')">TAB 2</button>
+                    <button class="tab-link tab3" onclick="openTab(event, 'tab3')">TAB
+                        3</button>
+                </div>
+                <div id="tab1" class="tab-content ">
+                    <div class="content">
+                        <h3>Tabs1 with soft transitioning effect.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                            Proin
+                            gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar
+                            tempor.
+                            Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+                        <button class="btn">Download</button>
+                    </div>
+                    <div>
+                        <img src="./imgs/tab-img1.png" alt="Logo" width="320px" height="250px">
+                    </div>
+
+                </div>
+                <div id="tab2" class="tab-content">
+                    <div class="content">
+                        <h3>Tabs2 with soft transitioning effect.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                            Proin
+                            gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar
+                            tempor.
+                            Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+                        <button class="btn">Download</button>
+                    </div>
+                    <div>
+                        <img src="./imgs/tab-img1.png" alt="Logo" width="320px" height="250px">
+                    </div>
+                </div>
+                <div id="tab3" class="tab-content">
+                    <div class="content">
+                        <h3>Tabs3 with soft transitioning effect.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                            Proin
+                            gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar
+                            tempor.
+                            Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+                        <button class="btn">Download</button>
+                    </div>
+                    <div>
+                        <img src="./imgs/tab-img1.png" alt="Logo" width="320px" height="250px">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sub-section">
+            <div class="container">
+                <div class="img-box">
+                    <img src="./imgs/sub-img.jpg" alt="Logo" width="450px" height="290px">
+                </div>
+
+                <div class="sub-content">
+                    <div class="content">
+
+                        <h3>Sub list section</h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                            Proin
+                            gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+
+                        <div class="sub-text-box">
+
+                            <div class="sub-text">
+                                <i class="fa-solid fa-cloud-arrow-up"></i>
+                                <div>
+                                    <h4>Title</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                        laoreet.
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="sub-text">
+                                <i class="fa-solid fa-cloud-arrow-down"></i>
+                                <div>
+                                    <h4>Title</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                        laoreet.
+                                        Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="standard-section">
+            <div class="container">
+                <div class="standard-content">
+                    <div class="content">
+
+                        <h3>Standard picture section</h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                            Proin
+                            gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar
+                            tempor.
+                            Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                        <p>LLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                        </p>
+
+
+                    </div>
+
+                </div>
+                <div class="img-box">
+                    <img src="./imgs/stan-img.jpg" alt="Logo" width="450px" height="290px">
+                </div>
+            </div>
+        </section>
+
+        <section class="ask-section">
+            <div class="container">
+                <div class="topic">
+                    <h2>WHY THIS IS AWESOME</h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                </div>
+                <div class="content">
+                    <div>
+                        <i class="fa-regular fa-lightbulb fa-flip-horizontal "></i>
+                        <h3>Thoughtful Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In explicabo eaque nesciunt ducimus
+                            numquam, debitis. Asperiores facere corporis inventore</p>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-keyboard "></i>
+                        <h3>Well Crafted</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In explicabo eaque nesciunt ducimus
+                            numquam, debitis. Asperiores facere corporis inventore</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-bolt "></i>
+                        <h3>Easy to Customize</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In explicabo eaque nesciunt ducimus
+                            numquam, debitis. Asperiores facere corporis inventore</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="sty-section">
+            <div class="container">
+                <h2>STYLISH AXURE DESIGN</h2>
+                <hr>
+                <p>Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!
+                </p>
+                <button class="btn_down">Download</button>
+            </div>
+
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="topic">
+                    <h2>CONTACT US</h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+                    </p>
+                </div>
+                <form class="contact-form">
+                    <div class="left-form">
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="text" name="email" placeholder="Email">
+                        <input type="text" name="subject" placeholder="Subject">
+                    </div>
+                    <div class="right-form">
+                        <textarea name="message" placeholder="Message"></textarea>
+                    </div>
+                </form>
+                <button type="submit" class="contact-submit">Send Message</button>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class=" container">
+            <div>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-stumbleupon"></i>
+                <i class="fa-solid fa-rss"></i>
+            </div>
+            <p>©2015 Axure Themes</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
